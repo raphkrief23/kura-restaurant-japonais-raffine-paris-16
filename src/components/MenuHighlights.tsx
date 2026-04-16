@@ -83,7 +83,7 @@ const MenuHighlights = () => {
             Notre Menu
           </h2>
           <p className="text-muted-foreground font-light text-sm">
-            Cuisine japonaise · Déjeuner & Dîner · Fait maison
+            Cuisine japonaise · Déjeuner & Dîner · Fait maison · Service à emporter
           </p>
         </div>
         <div className="space-y-14">
