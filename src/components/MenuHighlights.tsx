@@ -4,7 +4,7 @@ const categories = [
   {
     title: "Amuse-bouche",
     items: [
-      { name: "Amuse-bouche", price: "None" },
+      { name: "Amuse-bouche", price: "17" },
     ],
   },
   {
@@ -53,7 +53,7 @@ const MenuCategory = ({ cat, index }: { cat: typeof categories[0]; index: number
                 {item.name}
               </p>
             </div>
-            {item.price && (
+            {item.price && item.price !== "None" && (
               <span className="font-heading text-primary text-lg shrink-0 group-hover:text-terracotta transition-colors duration-300">
                 {item.price} €
               </span>
